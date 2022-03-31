@@ -12,6 +12,10 @@ header, body{
     background-color: #111111;
 }
 
+footer{
+    background-color: #1b1b1b;
+}
+
 /* COMMON */
 
 .recording  button, .view button{
@@ -45,7 +49,7 @@ header, body{
 .recording, .view{
     width: 50%; 
     display: flex;
-    min-height: 50px;
+    min-height: 40px;
     align-items: center;
 }
 
@@ -138,4 +142,61 @@ header, body{
 
 /* FOOTER */
 
-/* height70px */
+.cont-footer{
+    display: flex;
+    width: 100%;
+    min-height: 70px;
+    justify-content: space-between;
+}
+
+.col-footer-left, .col-footer-right{
+    width: 100%;
+    display: flex;
+    align-items: center;  
+}
+
+.col-footer-left ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.col-footer-left ul li{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.col-footer-left ul li a {
+    text-decoration: none;
+}
+
+.col-footer-left ul li i{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+
+.col-footer-left ul, .col-footer-left ul li a{
+    color:  #a8a8a8;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.col-footer-left ul li{
+    padding: 12px 20px;
+}
+
+.col-footer-right{
+    justify-content: flex-end;
+}
+
+.end-btn{
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: red;
+    padding: 5px 15px;
+    border-radius: 20%;
+    margin-right: 10px;
+}
