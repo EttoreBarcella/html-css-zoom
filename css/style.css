@@ -28,7 +28,7 @@ header, body{
     cursor: pointer;
 }
 
-.record, .display{
+.record, .display {
     padding: 0px 10px;
     border-radius: 10%;
     color: white;
@@ -45,7 +45,7 @@ header, body{
 .recording, .view{
     width: 50%; 
     display: flex;
-    min-height: 35px;
+    min-height: 50px;
     align-items: center;
 }
 
@@ -71,6 +71,71 @@ header, body{
 
 /* MAIN */
 
+.cont-main{
+    display: flex;
+    margin: auto;
+    max-width: 1400px;
+    min-height: calc(100vh - 110px);
+    flex-wrap: wrap;
+    
+}
 
+.col{
+    width: calc(100% / 6);
+    height:100%;
+}
+
+.user{
+    width: calc(100% - 6px);
+    height: calc(110px - 6px);
+    background-image: url(https://picsum.photos/id/1/200/300);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8%;
+    gap: 1px;
+}
+
+.user-flex{
+    display: flex;
+    width: calc(100% - 6px);
+}
+
+.name{
+    width: 50%;
+    align-self: flex-end;
+}
+
+.student{
+    background-color: #38444b;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5%;
+    padding: 0 10px;
+    margin:0 5px ;
+    cursor: pointer;
+}
+
+.unmute{
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.fa-microphone-slash{
+    color: red;
+}
+
+.btn-blue{
+    color: white;
+    background-color: #3370e5;
+    text-decoration: none;
+    border: none;
+    border-radius: 5%;
+    margin-top: 5px;
+    cursor: pointer;
+    padding: 2px;
+}
 
 /* FOOTER */
+
+/* height70px */
