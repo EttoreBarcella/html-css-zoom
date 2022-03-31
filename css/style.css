@@ -6,9 +6,68 @@
     box-sizing: border-box;
 }
 
+/* BACKGROUND */
+
+header, body{
+    background-color: #111111;
+}
+
+/* COMMON */
+
+.recording  button, .view button{
+    background-color: #0a0b0b;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.record, .security, .display{
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.record, .display{
+    padding: 0px 10px;
+    border-radius: 10%;
+    color: white;
+}
+
 /* HEADER */
 
+.cont-header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
 
+.recording, .view{
+    width: 50%; 
+    display: flex;
+    min-height: 35px;
+    align-items: center;
+}
+
+.view{
+    justify-content: flex-end;
+}
+
+.display{
+    margin-right: 5px;
+}
+
+.recording{
+    column-gap: 10px;
+}
+
+
+.security{
+    margin-left: 5px;
+    width: 25px;
+    border-radius: 20%;
+    color: #67d669;
+}
 
 /* MAIN */
 
